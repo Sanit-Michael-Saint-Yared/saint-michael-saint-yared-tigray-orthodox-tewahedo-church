@@ -18,6 +18,12 @@
       text-align: center;
       padding: 2rem;
     }
+    header img {
+      width: 100px;
+      height: auto;
+      border-radius: 50%;
+      margin-bottom: 1rem;
+    }
     nav {
       background-color: #0a9396;
       display: flex;
@@ -33,13 +39,18 @@
     nav a:hover {
       text-decoration: underline;
     }
+    .section {
+      padding: 2rem;
+      background-color: white;
+      margin: 1.5rem auto;
+      max-width: 1200px;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
     .gallery {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
       gap: 1.5rem;
-      padding: 2rem;
-      max-width: 1200px;
-      margin: auto;
     }
     .gallery img {
       width: 100%;
@@ -56,24 +67,11 @@
 </head>
 <body>
   <header>
-    <h1>Photo Gallery</h1>
-    <p>Saint Michael and Saint Yared Tigray Orthodox Tewahedo Church Baltimore</p>
+    <img src="saint_michael_logo.jpg" alt="Saint Michael Logo" />
+    <h1>Saint Michael and Saint Yared Tigray Orthodox Tewahedo Church</h1>
+    <p>Baltimore, Maryland</p>
   </header>
   <nav>
     <a href="index.html">Home</a>
     <a href="events.html">Events</a>
     <a href="media.html">Media</a>
-    <a href="gallery.html">Gallery</a>
-  </nav>
-  <div class="gallery">
-    <img src="https://via.placeholder.com/400x300?text=Celebration+1" alt="Celebration 1" />
-    <img src="https://via.placeholder.com/400x300?text=Holy+Day" alt="Holy Day" />
-    <img src="https://via.placeholder.com/400x300?text=Choir" alt="Choir" />
-    <img src="https://via.placeholder.com/400x300?text=Community+Event" alt="Community Event" />
-  </div>
-  <footer>
-    <p>&copy; 2025 Saint Michael and Saint Yared Tigray Orthodox Tewahedo Church Baltimore</p>
-  </footer>
-</body>
-</html>
-
